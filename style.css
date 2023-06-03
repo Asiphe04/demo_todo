@@ -1,0 +1,49 @@
+body {
+  background-color: #121212;
+  color: white;
+
+  text-align: center;
+}
+#taskList {
+  width: 300px;
+}
+#input {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+button {
+  background-color: rgb(133, 133, 254);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+.container {
+  padding: 12px 20px;
+  border: 1px solid black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#taskList {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.checklist-icon {
+  margin-right: 8px;
+}
+.delete-icon {
+  margin-left: 8px;
+}
+
+.task-text {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+#taskList {
+  list-style: none;
+}
